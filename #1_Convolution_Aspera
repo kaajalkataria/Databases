@@ -1,0 +1,309 @@
+-- create table for Aspera Bike Design
+-- CREATE DATABASE Aspera;
+-- USE Aspera;
+CREATE TABLE Aspera_Custom (
+Model_No INTEGER NOT NULL PRIMARY KEY,
+Color TEXT NOT NULL,
+Size TEXT NOT NULL,
+Graphics TEXT NOY NULL,
+Frameset VARCHAR(1000) NOT NULL,
+Price INTEGER NOT NULL
+);
+
+-- Inserting values into Aspera Table
+-- Size XS Color Silver
+INSERT INTO Aspera_Custom VALUES (1,'Silver','XS','Standard Graphics','Standard Frameset',37150);
+INSERT INTO Aspera_Custom VALUES (2,'Silver','XS','Standard Graphics','Shimano Sora-3000 9 Speed',65800);
+INSERT INTO Aspera_Custom VALUES (3,'Silver','XS','Standard Graphics','Shimano Tiagra-4700 Build 10 Speed',75800);
+INSERT INTO Aspera_Custom VALUES (4,'Silver','XS','Standard Graphics','Shimano 105 R7000 Build 11 Speed',90800);
+INSERT INTO Aspera_Custom VALUES (5,'Silver','XS','Rider Name and Signature','Standard Frameset',37150);
+INSERT INTO Aspera_Custom VALUES (6,'Silver','XS','Rider Name and Signature','Shimano Sora-3000 9 Speed',65800);
+INSERT INTO Aspera_Custom VALUES (7,'Silver','XS','Rider Name and Signature','Shimano Tiagra-4700 Build 10 Speed',75800);
+INSERT INTO Aspera_Custom VALUES (8,'Silver','XS','Rider Name and Signature','Shimano 105 R7000 Build 11 Speed',90800);
+INSERT INTO Aspera_Custom VALUES (9,'Silver','XS','None','Standard Frameset',35900);
+INSERT INTO Aspera_Custom VALUES (10,'Silver','XS','None','Shimano Sora-3000 9 Speed',64550);
+INSERT INTO Aspera_Custom VALUES (11,'Silver','XS','None','Shimano Tiagra-4700 Build 10 Speed',74550);
+INSERT INTO Aspera_Custom VALUES (12,'Silver','XS','None','Shimano 105 R7000 Build 11 Speed',89550);
+-- Size XS Color Red
+INSERT INTO Aspera_Custom VALUES (13,'Red','XS','Standard Graphics','Standard Frameset',37150);
+INSERT INTO Aspera_Custom VALUES (14,'Red','XS','Standard Graphics','Shimano Sora-3000 9 Speed',65800);
+INSERT INTO Aspera_Custom VALUES (15,'Red','XS','Standard Graphics','Shimano Tiagra-4700 Build 10 Speed',75800);
+INSERT INTO Aspera_Custom VALUES (16,'Red','XS','Standard Graphics','Shimano 105 R7000 Build 11 Speed',90800);
+INSERT INTO Aspera_Custom VALUES (17,'Red','XS','Rider Name and Signature','Standard Frameset',37150);
+INSERT INTO Aspera_Custom VALUES (18,'Red','XS','Rider Name and Signature','Shimano Sora-3000 9 Speed',65800);
+INSERT INTO Aspera_Custom VALUES (19,'Red','XS','Rider Name and Signature','Shimano Tiagra-4700 Build 10 Speed',75800);
+INSERT INTO Aspera_Custom VALUES (20,'Red','XS','Rider Name and Signature','Shimano 105 R7000 Build 11 Speed',90800);
+INSERT INTO Aspera_Custom VALUES (21,'Red','XS','None','Standard Frameset',35900);
+INSERT INTO Aspera_Custom VALUES (22,'Red','XS','None','Shimano Sora-3000 9 Speed',64550);
+INSERT INTO Aspera_Custom VALUES (23,'Red','XS','None','Shimano Tiagra-4700 Build 10 Speed',74550);
+INSERT INTO Aspera_Custom VALUES (24,'Red','XS','None','Shimano 105 R7000 Build 11 Speed',89550);
+-- Size XS Color Blue
+INSERT INTO Aspera_Custom VALUES (25,'Blue','XS','Standard Graphics','Standard Frameset',37150);
+INSERT INTO Aspera_Custom VALUES (26,'Blue','XS','Standard Graphics','Shimano Sora-3000 9 Speed',65800);
+INSERT INTO Aspera_Custom VALUES (27,'Blue','XS','Standard Graphics','Shimano Tiagra-4700 Build 10 Speed',75800);
+INSERT INTO Aspera_Custom VALUES (28,'Blue','XS','Standard Graphics','Shimano 105 R7000 Build 11 Speed',90800);
+INSERT INTO Aspera_Custom VALUES (29,'Blue','XS','Rider Name and Signature','Standard Frameset',37150);
+INSERT INTO Aspera_Custom VALUES (30,'Blue','XS','Rider Name and Signature','Shimano Sora-3000 9 Speed',65800);
+INSERT INTO Aspera_Custom VALUES (31,'Blue','XS','Rider Name and Signature','Shimano Tiagra-4700 Build 10 Speed',75800);
+INSERT INTO Aspera_Custom VALUES (32,'Blue','XS','Rider Name and Signature','Shimano 105 R7000 Build 11 Speed',90800);
+INSERT INTO Aspera_Custom VALUES (33,'Blue','XS','None','Standard Frameset',35900);
+INSERT INTO Aspera_Custom VALUES (34,'Blue','XS','None','Shimano Sora-3000 9 Speed',64550);
+INSERT INTO Aspera_Custom VALUES (35,'Blue','XS','None','Shimano Tiagra-4700 Build 10 Speed',74550);
+INSERT INTO Aspera_Custom VALUES (36,'Blue','XS','None','Shimano 105 R7000 Build 11 Speed',89550);
+-- Size XS Color Custom_4950
+INSERT INTO Aspera_Custom VALUES (37,'Custom','XS','Standard Graphics','Standard Frameset',42100);
+INSERT INTO Aspera_Custom VALUES (38,'Custom','XS','Standard Graphics','Shimano Sora-3000 9 Speed',70750);
+INSERT INTO Aspera_Custom VALUES (39,'Custom','XS','Standard Graphics','Shimano Tiagra-4700 Build 10 Speed',80750);
+INSERT INTO Aspera_Custom VALUES (40,'Custom','XS','Standard Graphics','Shimano 105 R7000 Build 11 Speed',95750);
+INSERT INTO Aspera_Custom VALUES (41,'Custom','XS','Rider Name and Signature','Standard Frameset',42100);
+INSERT INTO Aspera_Custom VALUES (42,'Custom','XS','Rider Name and Signature','Shimano Sora-3000 9 Speed',70750);
+INSERT INTO Aspera_Custom VALUES (43,'Custom','XS','Rider Name and Signature','Shimano Tiagra-4700 Build 10 Speed',80750);
+INSERT INTO Aspera_Custom VALUES (44,'Custom','XS','Rider Name and Signature','Shimano 105 R7000 Build 11 Speed',95750);
+INSERT INTO Aspera_Custom VALUES (45,'Custom','XS','None','Standard Frameset',40850);
+INSERT INTO Aspera_Custom VALUES (46,'Custom','XS','None','Shimano Sora-3000 9 Speed',69500);
+INSERT INTO Aspera_Custom VALUES (47,'Custom','XS','None','Shimano Tiagra-4700 Build 10 Speed',79500);
+INSERT INTO Aspera_Custom VALUES (48,'Custom','XS','None','Shimano 105 R7000 Build 11 Speed',94500);
+-- Size S Color Silver
+INSERT INTO Aspera_Custom VALUES (49,'Silver','S','Standard Graphics','Standard Frameset',37150);
+INSERT INTO Aspera_Custom VALUES (50,'Silver','S','Standard Graphics','Shimano Sora-3000 9 Speed',65800);
+INSERT INTO Aspera_Custom VALUES (51,'Silver','S','Standard Graphics','Shimano Tiagra-4700 Build 10 Speed',75800);
+INSERT INTO Aspera_Custom VALUES (52,'Silver','S','Standard Graphics','Shimano 105 R7000 Build 11 Speed',90800);
+INSERT INTO Aspera_Custom VALUES (53,'Silver','S','Rider Name and Signature','Standard Frameset',37150);
+INSERT INTO Aspera_Custom VALUES (54,'Silver','S','Rider Name and Signature','Shimano Sora-3000 9 Speed',65800);
+INSERT INTO Aspera_Custom VALUES (55,'Silver','S','Rider Name and Signature','Shimano Tiagra-4700 Build 10 Speed',75800);
+INSERT INTO Aspera_Custom VALUES (56,'Silver','S','Rider Name and Signature','Shimano 105 R7000 Build 11 Speed',90800);
+INSERT INTO Aspera_Custom VALUES (57,'Silver','S','None','Standard Frameset',35900);
+INSERT INTO Aspera_Custom VALUES (58,'Silver','S','None','Shimano Sora-3000 9 Speed',64550);
+INSERT INTO Aspera_Custom VALUES (59,'Silver','S','None','Shimano Tiagra-4700 Build 10 Speed',74550);
+INSERT INTO Aspera_Custom VALUES (60,'Silver','S','None','Shimano 105 R7000 Build 11 Speed',89550);
+-- Size S Color Red
+INSERT INTO Aspera_Custom VALUES (61,'Red','S','Standard Graphics','Standard Frameset',37150);
+INSERT INTO Aspera_Custom VALUES (62,'Red','S','Standard Graphics','Shimano Sora-3000 9 Speed',65800);
+INSERT INTO Aspera_Custom VALUES (63,'Red','S','Standard Graphics','Shimano Tiagra-4700 Build 10 Speed',75800);
+INSERT INTO Aspera_Custom VALUES (64,'Red','S','Standard Graphics','Shimano 105 R7000 Build 11 Speed',90800);
+INSERT INTO Aspera_Custom VALUES (65,'Red','S','Rider Name and Signature','Standard Frameset',37150);
+INSERT INTO Aspera_Custom VALUES (66,'Red','S','Rider Name and Signature','Shimano Sora-3000 9 Speed',65800);
+INSERT INTO Aspera_Custom VALUES (67,'Red','S','Rider Name and Signature','Shimano Tiagra-4700 Build 10 Speed',75800);
+INSERT INTO Aspera_Custom VALUES (68,'Red','S','Rider Name and Signature','Shimano 105 R7000 Build 11 Speed',90800);
+INSERT INTO Aspera_Custom VALUES (69,'Red','S','None','Standard Frameset',35900);
+INSERT INTO Aspera_Custom VALUES (70,'Red','S','None','Shimano Sora-3000 9 Speed',64550);
+INSERT INTO Aspera_Custom VALUES (71,'Red','S','None','Shimano Tiagra-4700 Build 10 Speed',74550);
+INSERT INTO Aspera_Custom VALUES (72,'Red','S','None','Shimano 105 R7000 Build 11 Speed',89550);
+-- Size S Color Blue
+INSERT INTO Aspera_Custom VALUES (73,'Blue','S','Standard Graphics','Standard Frameset',37150);
+INSERT INTO Aspera_Custom VALUES (74,'Blue','S','Standard Graphics','Shimano Sora-3000 9 Speed',65800);
+INSERT INTO Aspera_Custom VALUES (75,'Blue','S','Standard Graphics','Shimano Tiagra-4700 Build 10 Speed',75800);
+INSERT INTO Aspera_Custom VALUES (76,'Blue','S','Standard Graphics','Shimano 105 R7000 Build 11 Speed',90800);
+INSERT INTO Aspera_Custom VALUES (77,'Blue','S','Rider Name and Signature','Standard Frameset',37150);
+INSERT INTO Aspera_Custom VALUES (78,'Blue','S','Rider Name and Signature','Shimano Sora-3000 9 Speed',65800);
+INSERT INTO Aspera_Custom VALUES (79,'Blue','S','Rider Name and Signature','Shimano Tiagra-4700 Build 10 Speed',75800);
+INSERT INTO Aspera_Custom VALUES (80,'Blue','S','Rider Name and Signature','Shimano 105 R7000 Build 11 Speed',90800);
+INSERT INTO Aspera_Custom VALUES (81,'Blue','S','None','Standard Frameset',35900);
+INSERT INTO Aspera_Custom VALUES (82,'Blue','S','None','Shimano Sora-3000 9 Speed',64550);
+INSERT INTO Aspera_Custom VALUES (83,'Blue','S','None','Shimano Tiagra-4700 Build 10 Speed',74550);
+INSERT INTO Aspera_Custom VALUES (84,'Blue','S','None','Shimano 105 R7000 Build 11 Speed',89550);
+-- Size S Color Custom_4950
+INSERT INTO Aspera_Custom VALUES (85,'Custom','S','Standard Graphics','Standard Frameset',42100);
+INSERT INTO Aspera_Custom VALUES (86,'Custom','S','Standard Graphics','Shimano Sora-3000 9 Speed',70750);
+INSERT INTO Aspera_Custom VALUES (87,'Custom','S','Standard Graphics','Shimano Tiagra-4700 Build 10 Speed',80750);
+INSERT INTO Aspera_Custom VALUES (88,'Custom','S','Standard Graphics','Shimano 105 R7000 Build 11 Speed',95750);
+INSERT INTO Aspera_Custom VALUES (89,'Custom','S','Rider Name and Signature','Standard Frameset',42100);
+INSERT INTO Aspera_Custom VALUES (90,'Custom','S','Rider Name and Signature','Shimano Sora-3000 9 Speed',70750);
+INSERT INTO Aspera_Custom VALUES (91,'Custom','S','Rider Name and Signature','Shimano Tiagra-4700 Build 10 Speed',80750);
+INSERT INTO Aspera_Custom VALUES (92,'Custom','S','Rider Name and Signature','Shimano 105 R7000 Build 11 Speed',95750);
+INSERT INTO Aspera_Custom VALUES (93,'Custom','S','None','Standard Frameset',40850);
+INSERT INTO Aspera_Custom VALUES (94,'Custom','S','None','Shimano Sora-3000 9 Speed',69500);
+INSERT INTO Aspera_Custom VALUES (95,'Custom','S','None','Shimano Tiagra-4700 Build 10 Speed',79500);
+INSERT INTO Aspera_Custom VALUES (96,'Custom','S','None','Shimano 105 R7000 Build 11 Speed',94500);
+-- Size M Color Silver
+INSERT INTO Aspera_Custom VALUES (97,'Silver','M','Standard Graphics','Standard Frameset',37150);
+INSERT INTO Aspera_Custom VALUES (98,'Silver','M','Standard Graphics','Shimano Sora-3000 9 Speed',65800);
+INSERT INTO Aspera_Custom VALUES (99,'Silver','M','Standard Graphics','Shimano Tiagra-4700 Build 10 Speed',75800);
+INSERT INTO Aspera_Custom VALUES (100,'Silver','M','Standard Graphics','Shimano 105 R7000 Build 11 Speed',90800);
+INSERT INTO Aspera_Custom VALUES (101,'Silver','M','Rider Name and Signature','Standard Frameset',37150);
+INSERT INTO Aspera_Custom VALUES (102,'Silver','M','Rider Name and Signature','Shimano Sora-3000 9 Speed',65800);
+INSERT INTO Aspera_Custom VALUES (103,'Silver','M','Rider Name and Signature','Shimano Tiagra-4700 Build 10 Speed',75800);
+INSERT INTO Aspera_Custom VALUES (104,'Silver','M','Rider Name and Signature','Shimano 105 R7000 Build 11 Speed',90800);
+INSERT INTO Aspera_Custom VALUES (105,'Silver','M','None','Standard Frameset',35900);
+INSERT INTO Aspera_Custom VALUES (106,'Silver','M','None','Shimano Sora-3000 9 Speed',64550);
+INSERT INTO Aspera_Custom VALUES (107,'Silver','M','None','Shimano Tiagra-4700 Build 10 Speed',74550);
+INSERT INTO Aspera_Custom VALUES (108,'Silver','M','None','Shimano 105 R7000 Build 11 Speed',89550);
+-- Size M Color Red
+INSERT INTO Aspera_Custom VALUES (109,'Red','M','Standard Graphics','Standard Frameset',37150);
+INSERT INTO Aspera_Custom VALUES (110,'Red','M','Standard Graphics','Shimano Sora-3000 9 Speed',65800);
+INSERT INTO Aspera_Custom VALUES (111,'Red','M','Standard Graphics','Shimano Tiagra-4700 Build 10 Speed',75800);
+INSERT INTO Aspera_Custom VALUES (112,'Red','M','Standard Graphics','Shimano 105 R7000 Build 11 Speed',90800);
+INSERT INTO Aspera_Custom VALUES (113,'Red','M','Rider Name and Signature','Standard Frameset',37150);
+INSERT INTO Aspera_Custom VALUES (114,'Red','M','Rider Name and Signature','Shimano Sora-3000 9 Speed',65800);
+INSERT INTO Aspera_Custom VALUES (115,'Red','M','Rider Name and Signature','Shimano Tiagra-4700 Build 10 Speed',75800);
+INSERT INTO Aspera_Custom VALUES (116,'Red','M','Rider Name and Signature','Shimano 105 R7000 Build 11 Speed',90800);
+INSERT INTO Aspera_Custom VALUES (117,'Red','M','None','Standard Frameset',35900);
+INSERT INTO Aspera_Custom VALUES (118,'Red','M','None','Shimano Sora-3000 9 Speed',64550);
+INSERT INTO Aspera_Custom VALUES (119,'Red','M','None','Shimano Tiagra-4700 Build 10 Speed',74550);
+INSERT INTO Aspera_Custom VALUES (120,'Red','M','None','Shimano 105 R7000 Build 11 Speed',89550);
+-- Size M Color Blue
+INSERT INTO Aspera_Custom VALUES (121,'Blue','M','Standard Graphics','Standard Frameset',37150);
+INSERT INTO Aspera_Custom VALUES (122,'Blue','M','Standard Graphics','Shimano Sora-3000 9 Speed',65800);
+INSERT INTO Aspera_Custom VALUES (123,'Blue','M','Standard Graphics','Shimano Tiagra-4700 Build 10 Speed',75800);
+INSERT INTO Aspera_Custom VALUES (124,'Blue','M','Standard Graphics','Shimano 105 R7000 Build 11 Speed',90800);
+INSERT INTO Aspera_Custom VALUES (125,'Blue','M','Rider Name and Signature','Standard Frameset',37150);
+INSERT INTO Aspera_Custom VALUES (126,'Blue','M','Rider Name and Signature','Shimano Sora-3000 9 Speed',65800);
+INSERT INTO Aspera_Custom VALUES (127,'Blue','M','Rider Name and Signature','Shimano Tiagra-4700 Build 10 Speed',75800);
+INSERT INTO Aspera_Custom VALUES (128,'Blue','M','Rider Name and Signature','Shimano 105 R7000 Build 11 Speed',90800);
+INSERT INTO Aspera_Custom VALUES (129,'Blue','M','None','Standard Frameset',35900);
+INSERT INTO Aspera_Custom VALUES (130,'Blue','M','None','Shimano Sora-3000 9 Speed',64550);
+INSERT INTO Aspera_Custom VALUES (131,'Blue','M','None','Shimano Tiagra-4700 Build 10 Speed',74550);
+INSERT INTO Aspera_Custom VALUES (132,'Blue','M','None','Shimano 105 R7000 Build 11 Speed',89550);
+-- Size M Color Custom_4950
+INSERT INTO Aspera_Custom VALUES (133,'Custom','M','Standard Graphics','Standard Frameset',42100);
+INSERT INTO Aspera_Custom VALUES (134,'Custom','M','Standard Graphics','Shimano Sora-3000 9 Speed',70750);
+INSERT INTO Aspera_Custom VALUES (135,'Custom','M','Standard Graphics','Shimano Tiagra-4700 Build 10 Speed',80750);
+INSERT INTO Aspera_Custom VALUES (136,'Custom','M','Standard Graphics','Shimano 105 R7000 Build 11 Speed',95750);
+INSERT INTO Aspera_Custom VALUES (137,'Custom','M','Rider Name and Signature','Standard Frameset',42100);
+INSERT INTO Aspera_Custom VALUES (138,'Custom','M','Rider Name and Signature','Shimano Sora-3000 9 Speed',70750);
+INSERT INTO Aspera_Custom VALUES (139,'Custom','M','Rider Name and Signature','Shimano Tiagra-4700 Build 10 Speed',80750);
+INSERT INTO Aspera_Custom VALUES (140,'Custom','M','Rider Name and Signature','Shimano 105 R7000 Build 11 Speed',95750);
+INSERT INTO Aspera_Custom VALUES (141,'Custom','M','None','Standard Frameset',40850);
+INSERT INTO Aspera_Custom VALUES (142,'Custom','M','None','Shimano Sora-3000 9 Speed',69500);
+INSERT INTO Aspera_Custom VALUES (143,'Custom','M','None','Shimano Tiagra-4700 Build 10 Speed',79500);
+INSERT INTO Aspera_Custom VALUES (144,'Custom','M','None','Shimano 105 R7000 Build 11 Speed',94500);
+-- Size L Color Silver
+INSERT INTO Aspera_Custom VALUES (145,'Silver','L','Standard Graphics','Standard Frameset',37150);
+INSERT INTO Aspera_Custom VALUES (146,'Silver','L','Standard Graphics','Shimano Sora-3000 9 Speed',65800);
+INSERT INTO Aspera_Custom VALUES (147,'Silver','L','Standard Graphics','Shimano Tiagra-4700 Build 10 Speed',75800);
+INSERT INTO Aspera_Custom VALUES (148,'Silver','L','Standard Graphics','Shimano 105 R7000 Build 11 Speed',90800);
+INSERT INTO Aspera_Custom VALUES (149,'Silver','L','Rider Name and Signature','Standard Frameset',37150);
+INSERT INTO Aspera_Custom VALUES (150,'Silver','L','Rider Name and Signature','Shimano Sora-3000 9 Speed',65800);
+INSERT INTO Aspera_Custom VALUES (151,'Silver','L','Rider Name and Signature','Shimano Tiagra-4700 Build 10 Speed',75800);
+INSERT INTO Aspera_Custom VALUES (152,'Silver','L','Rider Name and Signature','Shimano 105 R7000 Build 11 Speed',90800);
+INSERT INTO Aspera_Custom VALUES (153,'Silver','L','None','Standard Frameset',35900);
+INSERT INTO Aspera_Custom VALUES (154,'Silver','L','None','Shimano Sora-3000 9 Speed',64550);
+INSERT INTO Aspera_Custom VALUES (155,'Silver','L','None','Shimano Tiagra-4700 Build 10 Speed',74550);
+INSERT INTO Aspera_Custom VALUES (156,'Silver','L','None','Shimano 105 R7000 Build 11 Speed',89550);
+-- Size L Color Red
+INSERT INTO Aspera_Custom VALUES (157,'Red','L','Standard Graphics','Standard Frameset',37150);
+INSERT INTO Aspera_Custom VALUES (158,'Red','L','Standard Graphics','Shimano Sora-3000 9 Speed',65800);
+INSERT INTO Aspera_Custom VALUES (159,'Red','L','Standard Graphics','Shimano Tiagra-4700 Build 10 Speed',75800);
+INSERT INTO Aspera_Custom VALUES (160,'Red','L','Standard Graphics','Shimano 105 R7000 Build 11 Speed',90800);
+INSERT INTO Aspera_Custom VALUES (161,'Red','L','Rider Name and Signature','Standard Frameset',37150);
+INSERT INTO Aspera_Custom VALUES (162,'Red','L','Rider Name and Signature','Shimano Sora-3000 9 Speed',65800);
+INSERT INTO Aspera_Custom VALUES (163,'Red','L','Rider Name and Signature','Shimano Tiagra-4700 Build 10 Speed',75800);
+INSERT INTO Aspera_Custom VALUES (164,'Red','L','Rider Name and Signature','Shimano 105 R7000 Build 11 Speed',90800);
+INSERT INTO Aspera_Custom VALUES (165,'Red','L','None','Standard Frameset',35900);
+INSERT INTO Aspera_Custom VALUES (166,'Red','L','None','Shimano Sora-3000 9 Speed',64550);
+INSERT INTO Aspera_Custom VALUES (167,'Red','L','None','Shimano Tiagra-4700 Build 10 Speed',74550);
+INSERT INTO Aspera_Custom VALUES (168,'Red','L','None','Shimano 105 R7000 Build 11 Speed',89550);
+-- Size L Color Blue
+INSERT INTO Aspera_Custom VALUES (169,'Blue','L','Standard Graphics','Standard Frameset',37150);
+INSERT INTO Aspera_Custom VALUES (170,'Blue','L','Standard Graphics','Shimano Sora-3000 9 Speed',65800);
+INSERT INTO Aspera_Custom VALUES (171,'Blue','L','Standard Graphics','Shimano Tiagra-4700 Build 10 Speed',75800);
+INSERT INTO Aspera_Custom VALUES (172,'Blue','L','Standard Graphics','Shimano 105 R7000 Build 11 Speed',90800);
+INSERT INTO Aspera_Custom VALUES (173,'Blue','L','Rider Name and Signature','Standard Frameset',37150);
+INSERT INTO Aspera_Custom VALUES (174,'Blue','L','Rider Name and Signature','Shimano Sora-3000 9 Speed',65800);
+INSERT INTO Aspera_Custom VALUES (175,'Blue','L','Rider Name and Signature','Shimano Tiagra-4700 Build 10 Speed',75800);
+INSERT INTO Aspera_Custom VALUES (176,'Blue','L','Rider Name and Signature','Shimano 105 R7000 Build 11 Speed',90800);
+INSERT INTO Aspera_Custom VALUES (177,'Blue','L','None','Standard Frameset',35900);
+INSERT INTO Aspera_Custom VALUES (178,'Blue','L','None','Shimano Sora-3000 9 Speed',64550);
+INSERT INTO Aspera_Custom VALUES (179,'Blue','L','None','Shimano Tiagra-4700 Build 10 Speed',74550);
+INSERT INTO Aspera_Custom VALUES (180,'Blue','L','None','Shimano 105 R7000 Build 11 Speed',89550);
+-- Size L Color Custom_4950
+INSERT INTO Aspera_Custom VALUES (181,'Custom','L','Standard Graphics','Standard Frameset',42100);
+INSERT INTO Aspera_Custom VALUES (182,'Custom','L','Standard Graphics','Shimano Sora-3000 9 Speed',70750);
+INSERT INTO Aspera_Custom VALUES (183,'Custom','L','Standard Graphics','Shimano Tiagra-4700 Build 10 Speed',80750);
+INSERT INTO Aspera_Custom VALUES (184,'Custom','L','Standard Graphics','Shimano 105 R7000 Build 11 Speed',95750);
+INSERT INTO Aspera_Custom VALUES (185,'Custom','L','Rider Name and Signature','Standard Frameset',42100);
+INSERT INTO Aspera_Custom VALUES (186,'Custom','L','Rider Name and Signature','Shimano Sora-3000 9 Speed',70750);
+INSERT INTO Aspera_Custom VALUES (187,'Custom','L','Rider Name and Signature','Shimano Tiagra-4700 Build 10 Speed',80750);
+INSERT INTO Aspera_Custom VALUES (188,'Custom','L','Rider Name and Signature','Shimano 105 R7000 Build 11 Speed',95750);
+INSERT INTO Aspera_Custom VALUES (189,'Custom','L','None','Standard Frameset',40850);
+INSERT INTO Aspera_Custom VALUES (190,'Custom','L','None','Shimano Sora-3000 9 Speed',69500);
+INSERT INTO Aspera_Custom VALUES (191,'Custom','L','None','Shimano Tiagra-4700 Build 10 Speed',79500);
+INSERT INTO Aspera_Custom VALUES (192,'Custom','L','None','Shimano 105 R7000 Build 11 Speed',94500);
+-- Size XL Color Silver
+INSERT INTO Aspera_Custom VALUES (193,'Silver','XL','Standard Graphics','Standard Frameset',37150);
+INSERT INTO Aspera_Custom VALUES (194,'Silver','XL','Standard Graphics','Shimano Sora-3000 9 Speed',65800);
+INSERT INTO Aspera_Custom VALUES (195,'Silver','XL','Standard Graphics','Shimano Tiagra-4700 Build 10 Speed',75800);
+INSERT INTO Aspera_Custom VALUES (196,'Silver','XL','Standard Graphics','Shimano 105 R7000 Build 11 Speed',90800);
+INSERT INTO Aspera_Custom VALUES (197,'Silver','XL','Rider Name and Signature','Standard Frameset',37150);
+INSERT INTO Aspera_Custom VALUES (198,'Silver','XL','Rider Name and Signature','Shimano Sora-3000 9 Speed',65800);
+INSERT INTO Aspera_Custom VALUES (199,'Silver','XL','Rider Name and Signature','Shimano Tiagra-4700 Build 10 Speed',75800);
+INSERT INTO Aspera_Custom VALUES (200,'Silver','XL','Rider Name and Signature','Shimano 105 R7000 Build 11 Speed',90800);
+INSERT INTO Aspera_Custom VALUES (201,'Silver','XL','None','Standard Frameset',35900);
+INSERT INTO Aspera_Custom VALUES (202,'Silver','XL','None','Shimano Sora-3000 9 Speed',64550);
+INSERT INTO Aspera_Custom VALUES (203,'Silver','XL','None','Shimano Tiagra-4700 Build 10 Speed',74550);
+INSERT INTO Aspera_Custom VALUES (204,'Silver','XL','None','Shimano 105 R7000 Build 11 Speed',89550);
+-- Size XL Color Red
+INSERT INTO Aspera_Custom VALUES (205,'Red','XL','Standard Graphics','Standard Frameset',37150);
+INSERT INTO Aspera_Custom VALUES (206,'Red','XL','Standard Graphics','Shimano Sora-3000 9 Speed',65800);
+INSERT INTO Aspera_Custom VALUES (207,'Red','XL','Standard Graphics','Shimano Tiagra-4700 Build 10 Speed',75800);
+INSERT INTO Aspera_Custom VALUES (208,'Red','XL','Standard Graphics','Shimano 105 R7000 Build 11 Speed',90800);
+INSERT INTO Aspera_Custom VALUES (209,'Red','XL','Rider Name and Signature','Standard Frameset',37150);
+INSERT INTO Aspera_Custom VALUES (210,'Red','XL','Rider Name and Signature','Shimano Sora-3000 9 Speed',65800);
+INSERT INTO Aspera_Custom VALUES (211,'Red','XL','Rider Name and Signature','Shimano Tiagra-4700 Build 10 Speed',75800);
+INSERT INTO Aspera_Custom VALUES (212,'Red','XL','Rider Name and Signature','Shimano 105 R7000 Build 11 Speed',90800);
+INSERT INTO Aspera_Custom VALUES (213,'Red','XL','None','Standard Frameset',35900);
+INSERT INTO Aspera_Custom VALUES (214,'Red','XL','None','Shimano Sora-3000 9 Speed',64550);
+INSERT INTO Aspera_Custom VALUES (215,'Red','XL','None','Shimano Tiagra-4700 Build 10 Speed',74550);
+INSERT INTO Aspera_Custom VALUES (216,'Red','XL','None','Shimano 105 R7000 Build 11 Speed',89550);
+-- Size XL Color Blue
+INSERT INTO Aspera_Custom VALUES (217,'Blue','XL','Standard Graphics','Standard Frameset',37150);
+INSERT INTO Aspera_Custom VALUES (218,'Blue','XL','Standard Graphics','Shimano Sora-3000 9 Speed',65800);
+INSERT INTO Aspera_Custom VALUES (219,'Blue','XL','Standard Graphics','Shimano Tiagra-4700 Build 10 Speed',75800);
+INSERT INTO Aspera_Custom VALUES (220,'Blue','XL','Standard Graphics','Shimano 105 R7000 Build 11 Speed',90800);
+INSERT INTO Aspera_Custom VALUES (221,'Blue','XL','Rider Name and Signature','Standard Frameset',37150);
+INSERT INTO Aspera_Custom VALUES (222,'Blue','XL','Rider Name and Signature','Shimano Sora-3000 9 Speed',65800);
+INSERT INTO Aspera_Custom VALUES (223,'Blue','XL','Rider Name and Signature','Shimano Tiagra-4700 Build 10 Speed',75800);
+INSERT INTO Aspera_Custom VALUES (224,'Blue','XL','Rider Name and Signature','Shimano 105 R7000 Build 11 Speed',90800);
+INSERT INTO Aspera_Custom VALUES (225,'Blue','XL','None','Standard Frameset',35900);
+INSERT INTO Aspera_Custom VALUES (226,'Blue','XL','None','Shimano Sora-3000 9 Speed',64550);
+INSERT INTO Aspera_Custom VALUES (227,'Blue','XL','None','Shimano Tiagra-4700 Build 10 Speed',74550);
+INSERT INTO Aspera_Custom VALUES (228,'Blue','XL','None','Shimano 105 R7000 Build 11 Speed',89550);
+-- Size XL Color Custom_4950
+INSERT INTO Aspera_Custom VALUES (229,'Custom','XL','Standard Graphics','Standard Frameset',42100);
+INSERT INTO Aspera_Custom VALUES (230,'Custom','XL','Standard Graphics','Shimano Sora-3000 9 Speed',70750);
+INSERT INTO Aspera_Custom VALUES (231,'Custom','XL','Standard Graphics','Shimano Tiagra-4700 Build 10 Speed',80750);
+INSERT INTO Aspera_Custom VALUES (232,'Custom','XL','Standard Graphics','Shimano 105 R7000 Build 11 Speed',95750);
+INSERT INTO Aspera_Custom VALUES (233,'Custom','XL','Rider Name and Signature','Standard Frameset',42100);
+INSERT INTO Aspera_Custom VALUES (234,'Custom','XL','Rider Name and Signature','Shimano Sora-3000 9 Speed',70750);
+INSERT INTO Aspera_Custom VALUES (235,'Custom','XL','Rider Name and Signature','Shimano Tiagra-4700 Build 10 Speed',80750);
+INSERT INTO Aspera_Custom VALUES (236,'Custom','XL','Rider Name and Signature','Shimano 105 R7000 Build 11 Speed',95750);
+INSERT INTO Aspera_Custom VALUES (237,'Custom','XL','None','Standard Frameset',40850);
+INSERT INTO Aspera_Custom VALUES (238,'Custom','XL','None','Shimano Sora-3000 9 Speed',69500);
+INSERT INTO Aspera_Custom VALUES (239,'Custom','XL','None','Shimano Tiagra-4700 Build 10 Speed',79500);
+INSERT INTO Aspera_Custom VALUES (240,'Custom','XL','None','Shimano 105 R7000 Build 11 Speed',94500);
+
+-- Displaying Aspera Table with customer requirements
+-- Requirement 1 : XS Cycle under Rs 70000
+SELECT * FROM Aspera_Custom WHERE Size = 'XS' AND Price < 70000;
+
+-- Requirement 2 : Minimum Price Cycles
+SELECT MIN(Price) FROM Aspera_Custom;
+SELECT * FROM Aspera_Custom WHERE Price = 35900;
+
+-- Requirement 3 : Maximum Price Cycles
+SELECT MAX(Price) FROM Aspera_Custom;
+SELECT * FROM Aspera_Custom WHERE Price = 95750;
+
+-- Create table for customer data
+CREATE TABLE Customer_Data (
+Model_No INTEGER NOT NULL,
+Name TEXT NOT NULL,
+Bill_No INTEGER NOT NULL,
+FOREIGN KEY (Model_No) REFERENCES Aspera_Custom (Model_No)
+);
+
+-- Inserting Values in Customer_Data
+INSERT INTO Customer_Data VALUES (229,'Kaajal Kataria',001);
+INSERT INTO Customer_Data VALUES (141,'Ajinkya Nimbalkar',002);
+INSERT INTO Customer_Data VALUES (1,'Rushika Kshirsagar',003);
+INSERT INTO Customer_Data VALUES (109,'Kshitija Godase',004);
+INSERT INTO Customer_Data VALUES (151,'Pia Katkar',005);
+
+-- Displaying the cycles bought by 5 customers
+SELECT * FROM Customer_Data,Aspera_Custom WHERE Customer_Data.Model_No = Aspera_Custom.Model_No;
+
+-- Displaying the least expensive cycle sold
+SELECT MIN(Price),Bill_No,Name FROM Aspera_Custom,Customer_Data WHERE Aspera_Custom.Model_No = Customer_Data.Model_No;
+
+-- Displaying most expensive cycle sold
+SELECT MAX(Price),Bill_No,Name FROM Aspera_Custom,Customer_Data WHERE Aspera_Custom.Model_No = Customer_Data.Model_No;
