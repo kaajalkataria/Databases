@@ -1,2 +1,1 @@
-# Databases
-This repository is for case studies and examples explaining and illustrating the use of SQL language.
+Inventory database for Convolution Bikes, a custom bicycle manufacturing company.
